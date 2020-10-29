@@ -8,12 +8,12 @@ article {
 .article-titel{
     background-color: #c96d6d;
     font-size: xx-large;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
     border: 3px double black;
     text-align: center; 
 }
-.article-img-Helical{
-    width: 50%;
+.article-img-cyrcle{
+    width: 45%;
     border: 3px double black;
     text-align: center;
 }
@@ -41,18 +41,18 @@ animation-duration: 2s;
     }
 
     10% {
-        background-color: darkgray;
+        background-color: #1606a5;
         height: 100px
     }
     50% {
-        background-color: rgb(11, 58, 14);
+        background-color: #023605;
 
     }
     100% {
-        background-color: rgb(194, 120, 25);
+        background-color: rgb(233, 2, 2);
 
     }
 }
 
-
 @keyframes az{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}
+
