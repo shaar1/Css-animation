@@ -1,0 +1,15 @@
+body{
+    color: #fff;
+    text-align: center;
+}
+
+#gird-container{
+    max-width: 800px;
+margin: 0 auto;
+
+
+}
+#grid-container div{
+    background: #113399;
+    padding: 30px;
+}
