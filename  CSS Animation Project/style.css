@@ -1,0 +1,112 @@
+.huvud-artickl 
+{
+    border: 3px double black;
+    text-align: center;
+    border-radius: 35px;
+    padding: 20px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    width: 850px;
+}
+
+.huvud-titel
+ {
+    background-color: #76ad1c;
+    font-size: xx-large;
+    border: 10px double rgb(211, 197, 197);
+    border-radius: 35px;  
+    width: 800px;
+    animation-name: första-animation;
+    animation-duration: 4s;
+  }
+
+  @keyframes första-animation
+   {
+      0%   {background-color: red;}
+      25%  {background-color: yellow;}
+      50%  {background-color: #9595b9;}
+      100% {background-color: green;}
+    }
+
+.huvud-article-text
+{
+    width: 820px;
+    font-size: 20px;
+}
+
+.huvud-img 
+{
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    width: 800px;
+  }
+
+.articles
+ {
+    display: flex;
+    flex-direction: row;
+    padding: 1px;
+    margin-top: 50px;
+}
+
+.articles-info
+ {
+    text-align: center;
+    border-radius: 10px;
+    font-size: large;
+    padding: 1px;
+    border: 3px double black;
+
+}
+.article-titel 
+{
+    background-color: #e3e643d3;
+    border: 10px double rgb(211, 197, 197);
+    border-radius: 50px;
+
+
+    
+        animation: animation1 5s infinite;
+      }
+      
+      @keyframes animation1 {
+        0% {
+          background-color: #001F3F;
+        }
+        100% {
+          background-color: #FF4136;
+        }
+      }
+
+
+.article-image 
+{
+    width: 90%;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+.article-text {
+    font-size: medium;
+}
+
+
+.article-button 
+{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-size: 70px;
+    border-radius: 22px;
+}
+.article-button:hover{
+    background-color: brown;
+    transition: all 0,8s;
+    transition-delay: 0,8s;
+}
+footer 
+{
+    text-align: center;
+}
